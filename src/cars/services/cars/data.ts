@@ -1,23 +1,24 @@
 import { Car } from "src/cars/interfaces/car-interface";
+import { v4 as uuid } from "uuid";
 
 export const cars: Car[] = [
     {
-        id: 1,
+        id: uuid(),
         brand: 'Toyota',
         model: 'Corolla'
     },
     {
-        id: 2,
+        id: uuid(),
         brand: 'Kia',
         model: 'Soul'
     },
     {
-        id: 3,
+        id: uuid(),
         brand: 'Honda',
         model: 'Civic'
     },
     {
-        id: 4,
+        id: uuid(),
         brand: 'Mitsubushi',
         model: 'Lancer'
     }
